@@ -10,7 +10,7 @@ class Ball:
         self.y += random.uniform(-1, 1)
 
 # Erstellen eines Balls mit Startposition (0, 0)
-ball = Ball(0, 0)
+ball = Ball(1, 1)
 
 # Simulationsschleife für 10 Schritte
 for _ in range(10):
